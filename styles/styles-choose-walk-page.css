@@ -1,0 +1,76 @@
+/*stylesheet for all pages that ask users to choose a walk in a block*/
+h1 {
+    color: rgb(0, 0, 0);
+    font-family:"Koulen";
+    font-size: 128px;
+  }
+h2 {
+    color:#d76740;
+    font-family: 'M PLUS Code Latin';
+    font-size: 36px;
+    background-color: #ecdb9f;
+    display: inline-block;
+    padding: 25px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'M PLUS Code Latin';
+    font-size: 36px
+  }
+h3 {
+    color:#000000;
+    font-family:"Koulen";
+    font-size: 64px
+}
+h4 {
+    color:white;
+    font-family:"Koulen";
+    font-size: 18px
+}
+h2:hover{background-color: #FFF;}
+.layout-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.layout-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.home-layout-left{position:absolute;top:35%;left:10%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.home-button-layout{position:absolute;top:50%;left:17.5%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.queens-layout-left{position:absolute;top:50%;left:13%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.full-map-button-layout{position:absolute;top:40%;left:15%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.text-center{text-align:center}
+.location-intro{text-align: left;line-height: 5px;}
+.text-black{color:#000000}
+.button-text:hover{color: #d76740;text-decoration:none;background-color: white;display:flex;cursor: pointer;border-radius: 12px;}:link{color: #d76740;text-decoration: none;}:visited{color: #d76740;text-decoration: none;}
+.profile-place{position: absolute;top: 20px;right: 20px;}
+.setting-place{position:absolute;bottom: 20px;right: 20px;}
+.home-place{position:absolute;top: 20px;left: 20px;}
+* {
+  box-sizing: border-box;
+}
+.main {
+  float: left;
+  width: 60%;
+  text-align: center;
+  padding:0px;
+  margin-top:130px;
+  line-height: 3px;
+}
+.map {
+    float: left;
+    width: 40%;
+    text-align:right;
+    padding:auto;
+    margin-top:80px;
+    object-fit:cover;
+  }
+@media only screen and (max-width: 1000px) {
+    .map, .main {
+      width: 100%;
+    }
+  }
+  div.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 3px;
+    background-color: #e65d2f;
+}
